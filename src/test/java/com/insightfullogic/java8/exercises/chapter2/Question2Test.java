@@ -1,7 +1,7 @@
 package com.insightfullogic.java8.exercises.chapter2;
 
 import org.junit.Test;
-import com.insightfullogic.java8.my_answer.chapter2.Question2;
+import com.bijay.myanswer.chapter2.Question2;
 import java.util.Calendar;
 
 import static org.junit.Assert.assertEquals;

@@ -1,4 +1,4 @@
-package com.insightfullogic.java8.my_answer.chapter3;
+package com.bijay.myanswer.chapter3;
 
 import com.insightfullogic.java8.examples.chapter1.Artist;
 
