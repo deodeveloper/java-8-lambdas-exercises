@@ -3,7 +3,7 @@ package com.insightfullogic.java8.exercises.chapter3;
 import com.insightfullogic.java8.examples.chapter1.Album;
 import com.insightfullogic.java8.examples.chapter1.SampleData;
 import org.junit.Test;
-import com.insightfullogic.java8.exercises.myanswer.chapter3.Question1;
+import com.insightfullogic.java8.my_answer.chapter3.Question1;
 import java.util.List;
 import java.util.stream.Stream;
 
