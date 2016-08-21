@@ -1,4 +1,4 @@
-package com.insightfullogic.java8.exercises.myanswer;
+package com.insightfullogic.java8.exercises.myanswer.chapter2;
 
 public class Question2 {
 

@@ -3,14 +3,11 @@ package com.insightfullogic.java8.exercises.chapter3;
 import com.insightfullogic.java8.examples.chapter1.Album;
 import com.insightfullogic.java8.examples.chapter1.SampleData;
 import org.junit.Test;
-
-import java.util.Arrays;
+import com.insightfullogic.java8.exercises.myanswer.chapter3.Question1;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static com.insightfullogic.java8.examples.chapter1.SampleData.aLoveSupreme;
-import static com.insightfullogic.java8.examples.chapter1.SampleData.manyTrackAlbum;
-import static com.insightfullogic.java8.examples.chapter1.SampleData.sampleShortAlbum;
+import static com.insightfullogic.java8.examples.chapter1.SampleData.*;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 
