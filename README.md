@@ -14,5 +14,5 @@ The overall code layout is:
 Within these directories things are organised by package:
 
 * Exercises which involve code in `com.insightfullogic.java8.exercises`
-* My Answers are in package com.insightfullogic.java8.my_answer
+* My Answers are in package com.bijay.myanswer
 * Author's Answers are in `com.insightfullogic.java8.answers` 
