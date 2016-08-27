@@ -3,7 +3,7 @@ package com.insightfullogic.java8.exercises.chapter4;
 import com.insightfullogic.java8.examples.chapter1.Artist;
 import com.insightfullogic.java8.examples.chapter1.SampleData;
 import org.junit.Test;
-
+import com.bijay.myanswer.chapter4.PerformanceFixed;
 import java.util.List;
 import java.util.stream.Stream;
 

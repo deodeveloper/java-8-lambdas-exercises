@@ -1,7 +1,5 @@
 package com.bijay.myanswer.chapter3;
 
-import org.apache.commons.math3.stat.descriptive.SummaryStatistics;
-
 /**
  * Advanced Exercises Question 2
  */
@@ -15,7 +13,7 @@ public class MapUsingReduce {
                 */
         //TODO: yet to be implemented
         throw new RuntimeException("not yet implemented");
-        SummaryStatistics
+
     }
 
 }
