@@ -3,6 +3,7 @@ package com.bijay.myanswer.chapter4;
 import com.insightfullogic.java8.examples.chapter1.Artist;
 
 import java.util.List;
+import java.util.Optional;
 
 public class Artists {
 
@@ -12,11 +13,11 @@ public class Artists {
         this.artists = artists;
     }
 
-    public Artist getArtist(int index) {
+    public Optional<Artist> getArtist(int index) {
         if (index < 0 || index >= artists.size()) {
-            indexException(index);
+            return Optional.empty();
         }
-        return artists.get(index);
+        return Optional.of(artists.get(index));
     }
 
     private void indexException(int index) {
@@ -24,12 +25,11 @@ public class Artists {
                                            " doesn't correspond to an Artist");
     }
 
-    public String getArtistName(int index) {
+    public Optional<String> getArtistName(int index) {
         try {
-            Artist artist = getArtist(index);
-            return artist.getName();
+            return getArtist(index).isPresent()? Optional.of(getArtist(index).get().getName()) : Optional.empty();
         } catch (IllegalArgumentException e) {
-            return "unknown";
+            return Optional.of("unknown");
         }
     }
 
