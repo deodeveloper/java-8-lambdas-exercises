@@ -6,6 +6,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Function;
+import com.bijay.myanswer.chapter3.MapUsingReduce;
 
 import org.junit.Test;
 

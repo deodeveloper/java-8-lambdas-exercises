@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Predicate;
-
+import com.bijay.myanswer.chapter3.FilterUsingReduce;
 import org.junit.Test;
 
 public class FilterUsingReduceTest {
