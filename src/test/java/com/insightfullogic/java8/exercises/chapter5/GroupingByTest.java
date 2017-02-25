@@ -1,10 +1,10 @@
 package com.insightfullogic.java8.exercises.chapter5;
-
 import org.junit.Test;
 
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
+import com.bijay.myanswer.chapter5.GroupingBy;
 
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
