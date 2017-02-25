@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.Map;
 import java.util.stream.Stream;
+import com.bijay.myanswer.chapter5.WordCount;
 
 import static org.junit.Assert.assertEquals;
 
